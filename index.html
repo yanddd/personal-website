@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yandrizal Profile</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <header class="header-container" id="home">
+        <div class="head-title">
+            <div class="text">
+                <h1>Selamat Datang di Website Saya</h1>
+                <p>Website ini berisikan tentang informasi pribadi, skill dan pengalaman saya dibidang pemrograman</p>
+
+            </div>
+        </div>
+        <nav>
+            <div class="nav-list">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#mailForm" onclick="openForm()">Kontak</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <article class="first-content">
+                <div class="content-description">
+                    <h4>Halo semua <i style="color: rgb(255, 230, 0);" class="fas fa-hand-paper"></i>, saya</h4>
+                    <h1 class="title">Yandrizal, S.Kom</h1>
+                    <p>
+                        Saya merupakan lulusan Sarjana Komputer di UIN Suska Riau Prodi Sistem Informasi. Saat ini umur
+                        saya 23 tahun, saya tinggal di Provinsi Riau, Kabupaten Kampar, dan tepatnya di Kota Bangkinang.
+                    </p>
+                </div>
+                <div class="content-image">
+                    <img src="img/profile.png" alt="Foto content">
+                </div>
+            </article>
+            <article class="second-content" id="skill">
+                <div class="coding-skill">
+                    <ul>
+                        <li><i class="fab fa-js-square"></i></li>
+                        <li><i class="fab fa-node-js"></i></li>
+                        <li><i class="fab fa-html5"></i></li>
+                        <li><i class="fab fa-css3-alt"></i></li>
+                        <li><i class="fab fa-php"></i></li>
+                        <li><i class="fab fa-laravel"></i></li>
+                        <li><i class="lni lni-mysql"></i></li>
+                        <li><i class="lni lni-postman"></i></li>
+                    </ul>
+                </div>
+                <div class="skill-description">
+                    <h4>Ini skill saya</h4>
+                    <h1 class="title">Skill Pemrograman</h1>
+                    <p>Terdapat beberapa kemampuan bahasa pemrograman, framework, maupun tools yang saya kuasai dalam
+                        membangun sebuah website, diantaranya yaitu:
+                    </p>
+                    <ul>
+                        <li>Javascript</li>
+                        <li>Node.Js</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>PHP</li>
+                        <li>Laravel dan Codeigniter</li>
+                        <li>Postman</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="third-content" id="project">
+                <h1 class="title-list-project">List Project</h1>
+                <div class="list-project">
+                    <div class="body-project">
+                        <img src="img/pj1.png" alt="">
+                        <h3>Diagnosa Kesehatan Mental</h3>
+
+                        <div class="project-tags">
+                            <span>#PHP</span><span>#JS</span><span>#CI4</span>
+                        </div>
+
+                        <p><a href="#" onclick="return false">Detail Project</a></p>
+                    </div>
+
+                    <div class="body-project">
+                        <img src="img/pj2.png" alt="">
+                        <h3>Informasi Desa</h3>
+
+                        <div class="project-tags">
+                            <span>#PHP</span><span>#JS</span><span>#CI4</span>
+                        </div>
+
+                        <p><a href="#" onclick="return false">Detail Project</a></p>
+                    </div>
+                    <div class="body-project">
+                        <img src="img/pj3.png" alt="">
+                        <h3>Sistem Penggajian Karyawan</h3>
+
+                        <div class="project-tags">
+                            <span>#PHP</span><span>#JS</span><span>#CI4</span>
+                        </div>
+
+                        <p><a href="#" onclick="return false">Detail Project</a></p>
+                    </div>
+                    <div class="body-project">
+                        <img src="img/pj4.png" alt="">
+                        <h3>Toko Sepatu Online</h3>
+
+                        <div class="project-tags">
+                            <span>#PHP</span><span>#CI4</span>
+                        </div>
+
+                        <p><a href="#" onclick="return false">Detail Project</a></p>
+                    </div>
+                    <div class="body-project">
+                        <img src="img/pj5.png" alt="">
+                        <h3>E-Design.com</h3>
+
+                        <div class="project-tags">
+                            <span>#PHP</span><span>#JS</span><span>#CI4</span>
+                        </div>
+
+                        <p><a href="#" onclick="return false">Detail Project</a></p>
+                    </div>
+                    <div class="body-project">
+                        <img src="img/pj6.png" alt="">
+                        <h3>NBEx</h3>
+
+                        <div class="project-tags">
+                            <span>#PHP</span><span>#JS</span><span>#CI4</span>
+                        </div>
+
+                        <p><a href="#" onclick="return false">Detail Project</a></p>
+                    </div>
+
+                </div>
+            </article>
+        </div>
+        <div class="mail-form" id="mailForm">
+            <div class="input-form">
+                <div class="name">
+                    <label for="name">Nama Lengkap:</label>
+                    <input type="text" id="name" placeholder="Isi nama lengkap anda">
+                </div>
+                <div class="email">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Isi email anda">
+                </div>
+                <div class="name">
+                    <label for="name">Pesan:</label>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </div>
+
+                <div class="btn-form">
+                    <button class="btn-cancel" onclick="closeForm()">Batal</button>
+                    <button class="btn-send" onclick="closeForm()">Kirim</button>
+                </div>
+            </div>
+        </div>
+        <aside>
+            <div class="icon-aside">
+                <button id="iconSide" onclick="iconSide()">
+                    <img src="img/logo.jpg" alt="">
+                </button>
+
+            </div>
+            <div class="side-content" id="sideContent">
+                <button id="btnClose" onclick="closeSide()" class="btn-close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="side-foto">
+                    <img src="img/profile.png" alt="">
+                </div>
+                <div class="social-media">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i> <span>Yandri Zal</span></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> <span>@29Yandrizal</span></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i> <span>Yandri Zal</span></a></li>
+                        <li><a href="#"><i class="fab fa-github"></i> <span>yanddd</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+
+    <footer>
+        <div class="email-text">
+            <p>Kontak saya di</p> <button><i class="fas fa-envelope" onclick="openForm()"></i></button>
+        </div>
+        <div class="copy-right">
+            <p>&copy; <span style="color: #A725F9;">2024 Yandrizal Profile Project</span>. All Rights
+                Reserved.</p>
+        </div>
+        <div class="country">
+            <p>Indonesia - Riau - Kampar</p>
+        </div>
+
+    </footer>
+
+    <script>
+        function iconSide() {
+            document.getElementById("iconSide").style.display = "none";
+            document.getElementById("sideContent").style.display = "flex";
+        }
+
+        function closeSide() {
+            document.getElementById("iconSide").style.display = "block";
+            document.getElementById("sideContent").style.display = "none";
+        }
+
+        function openForm() {
+            document.getElementById("mailForm").style.display = "block";
+            document.getElementById("name").focus();
+            document.getElementById("name").scrollIntoView(true);
+        }
+
+        function closeForm() {
+            document.getElementById("mailForm").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

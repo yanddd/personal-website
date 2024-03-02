@@ -1,0 +1,543 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: #E8F7FD;
+    margin: 0;
+}
+
+header.header-container {
+    display: inline;
+}
+
+header.header-container .head-title {
+    background-color: #020BFE;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header.header-container .head-title .text {
+    background-image: url("../img/bg.jpg");
+    padding-block: 5rem;
+    border-radius: 0 0 24px 24px;
+    color: white;
+    padding-inline: 4.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+header.header-container .head-title .text h1 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    letter-spacing: -0.5px;
+    margin-block: 0px;
+}
+
+header.header-container .head-title .text p {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+header.header-container nav {
+    background-color: #020BFE;
+    position: sticky;
+    top: -0.1px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+header.header-container nav .nav-list ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem 1rem;
+}
+
+header.header-container nav .nav-list li {
+    list-style-type: none;
+}
+
+header.header-container nav .nav-list li a {
+    padding: 0 1rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+header.header-container nav .nav-list li:hover a {
+    background-color: #19FFFF;
+    color: white;
+}
+
+main .content .first-content {
+    margin-inline: auto;
+    padding: 4rem 4rem;
+    max-width: 1300px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+main .content .first-content .content-description {
+    flex: 1 1;
+    padding-inline-end: 4rem;
+}
+
+h4 {
+    background-color: #A725F9;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    margin-bottom: 0;
+    font-weight: 800;
+    width: fit-content;
+}
+
+h1.title {
+    margin-block: 0.1rem;
+    font-size: 3rem;
+}
+
+main .content .first-content .content-description p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+main .content .first-content .content-image {
+    flex: 1;
+    display: flex;
+}
+
+main .content .first-content .content-image img {
+
+    width: 400px;
+    min-width: 250px;
+    margin: auto;
+    border-radius: 0 0 10px 10px;
+    filter: drop-shadow(5px 5px 5px #666666);
+}
+
+main .content .second-content {
+    background-color: #F4FCFF;
+    width: 100%;
+    max-width: calc(100vw - 64px);
+    padding-block: 3rem;
+    padding-inline: 3rem;
+    margin-inline: auto;
+    margin-block-end: 3rem;
+    border-radius: 48px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+main .content .second-content .coding-skill {
+    background-color: #00A6FA;
+    border-radius: 24px;
+    flex: 1 1;
+    display: flex;
+    padding: 2rem 2rem 2rem 0;
+    margin-right: 5rem;
+}
+
+main .content .second-content .coding-skill ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+main .content .second-content .coding-skill li {
+    list-style-type: none;
+}
+
+main .content .second-content .coding-skill li i {
+    text-decoration: none;
+    font-size: 7rem;
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+
+main .content .second-content .coding-skill li .fa-js-square:hover {
+    color: #E8D44D;
+}
+
+main .content .second-content .coding-skill li .fa-html5:hover {
+    color: #DD4B24;
+}
+
+main .content .second-content .coding-skill li .fa-css3-alt:hover {
+    color: #254BDF;
+}
+
+main .content .second-content .coding-skill li .fa-node-js:hover {
+    color: #509941;
+}
+
+main .content .second-content .coding-skill li .fa-php:hover {
+    color: #7277AD;
+}
+
+main .content .second-content .coding-skill li .fa-laravel:hover {
+    color: #F72C1F;
+}
+
+main .content .second-content .coding-skill li .lni-mysql:hover {
+    color: #42759C;
+}
+
+main .content .second-content .coding-skill li .lni-postman:hover {
+    color: #E76A3D;
+}
+
+
+main .content .second-content .skill-description {
+    flex: 1;
+}
+
+main .content .second-content .skill-description p {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+main .content .third-content h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-block-end: 1.5rem;
+}
+
+main .content .third-content .list-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+main .content .third-content .body-project {
+    background-color: #F4FCFF;
+    width: 100%;
+    max-width: 300px;
+    padding-block: 1.5rem;
+    padding-inline-start: 1.5rem;
+    border-radius: 12px;
+}
+
+main .content .third-content .body-project img {
+    width: 250px;
+    height: 120px;
+    margin-block-end: 0;
+}
+
+main .content .third-content .body-project h3 {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.4rem;
+}
+
+main .content .third-content .body-project .project-tags {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 0.5rem;
+}
+
+main .content .third-content .body-project .project-tags span {
+    background-color: #E8F7FD;
+    padding-inline: 0.5rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 1.5rem;
+}
+
+main .content .third-content .body-project a {
+    color: #020BFE;
+}
+
+
+main aside {
+    position: fixed;
+    inset-block: 0;
+    inset-inline-end: 0;
+    z-index: 999999;
+}
+
+main aside .icon-aside {
+    position: fixed;
+    right: 0;
+    top: 200px;
+    border-radius: 100px 0 0 100px;
+    background-color: #19FFFF;
+    border: solid 3px #19FFFF;
+    display: flex;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+}
+
+main aside .icon-aside button {
+    width: 45px;
+    height: 45px;
+}
+
+main aside .icon-aside img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: transform 1s ease-in-out;
+}
+
+main aside .icon-aside img:hover {
+    transform: rotate(360deg);
+}
+
+main aside .side-content {
+    position: fixed;
+    right: 0;
+    top: 200px;
+    display: none;
+    flex-direction: column;
+    background-color: #19FFFF;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+main aside .side-content .btn-close {
+    width: fit-content;
+    cursor: pointer;
+    padding: 0.5rem 0 0 0.5rem;
+}
+
+main aside .side-content .btn-close i {
+    font-size: 1rem;
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+
+main aside .side-content .btn-close i:hover {
+    color: #89b0d9;
+}
+
+main aside .side-content .side-foto {
+    padding: 0.5rem 1rem 0 1.5rem;
+}
+
+main aside .side-content img {
+    width: 150px;
+    border: solid 4px #F4FCFF;
+    background-color: #21dadacf;
+}
+
+main aside .side-content .social-media {
+    height: 100%;
+    display: flex;
+}
+
+main aside .side-content .social-media ul {
+    padding: 0 0 0 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.5rem;
+}
+
+main aside .side-content .social-media li {
+    list-style-type: none;
+}
+
+main aside .side-content .social-media li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+
+main aside .side-content .social-media li a span {
+    font-size: 1rem;
+}
+
+main aside .side-content .social-media li a:hover {
+    color: #89b0d9;
+}
+
+footer {
+    margin-block-start: 3rem;
+    padding: 20px;
+    background-color: #F4FCFF;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer .copy-right p {
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+footer .email-text {
+    display: flex;
+}
+
+footer .email-text button {
+    margin-inline-start: 0.5rem;
+}
+
+footer .email-text button i {
+    font-size: 1.5rem;
+    color: #A725F9;
+}
+
+main .mail-form {
+    display: none;
+    margin-block: 3rem;
+    background-color: #CDF5FD;
+    width: 100%;
+    max-width: calc(100vw - 900px);
+    padding: 1.5rem;
+    margin-inline: auto;
+    border-radius: 48px;
+}
+
+main .mail-form .input-form {
+    background-color: #F4FCFF;
+    border-radius: 24px;
+    padding: 1rem;
+}
+
+main .mail-form .input-form .name,
+.email,
+.pesan,
+label {
+    display: flex;
+    flex-direction: column;
+    padding-block: 0.3rem;
+}
+
+main .mail-form .input-form .name input {
+    height: 30px;
+}
+
+main .mail-form .input-form .email input {
+    height: 30px;
+}
+
+main .mail-form .input-form .name,
+.email,
+.pesan,
+input,
+textarea {
+    border-color: #A2DFFB;
+    border-radius: 5px;
+}
+
+main .mail-form .input-form .btn-form {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    cursor: pointer;
+    margin-block-start: 1rem;
+
+}
+
+main .mail-form .input-form .btn-form .btn-send {
+    background: #A2DFFB;
+    border: solid #A2DFFB;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+main .mail-form .input-form .btn-form .btn-cancel {
+    background: #89b0d9;
+    border: solid #89b0d9;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+@media screen and (max-width: 1000px) {
+    header.header-container .head-title .text {
+        padding: 2rem;
+    }
+
+    header.header-container .head-title .text h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    header.header-container .head-title .text p {
+        font-size: 1.2rem;
+    }
+
+    main .content .first-content {
+        flex-direction: column-reverse;
+    }
+
+    main .content .first-content .content-image {
+        margin-block: 1.5rem;
+        width: 300px;
+    }
+
+    main .content .first-content .content-description {
+        padding-inline-end: 0
+    }
+
+    main .content .second-content {
+        padding-block: 1.5rem;
+        flex-direction: column;
+        max-width: calc(100vw - 120px);
+    }
+
+    main .content .second-content .coding-skill {
+        margin-right: 0;
+        margin-block-end: 1rem;
+    }
+
+    main .content .second-content .coding-skill li i {
+        font-size: 5rem;
+    }
+
+    main .mail-form {
+        max-width: calc(100vw - 200px);
+    }
+
+    h1.title,
+    h1.title-list-project {
+        margin-block: 0.1rem;
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+    main .content .second-content .coding-skill li i {
+        font-size: 4rem;
+    }
+
+    header.header-container nav .nav-list ul {
+        gap: 2rem 0;
+    }
+
+    header.header-container nav .nav-list li a {
+        padding: 0 0.5rem;
+    }
+}
